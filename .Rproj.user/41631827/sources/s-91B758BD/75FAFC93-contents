@@ -1,0 +1,41 @@
+---
+title: "Evidence for Phonological Constraints on Nuclear Accent Placement"
+subtitle: 'German et al. (2006)'
+author  : "Kyle Parrish & Joselyn Rodriguez"
+date    : "Rutgers University</br>Spring 2021</br>Last update: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: assets
+    css: ["rutgers"]
+    nature:
+      beforeInit: 
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+# Introduction 
+
+
+
+---
+
+# Background 
+
+
+
+
+---
+
+# Experiment 
+
+
+---
+
+# Conclusion 
+
+
+
+
+---
