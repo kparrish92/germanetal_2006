@@ -23,16 +23,6 @@ was just pulled from the text
 
 --> 
 
----
-# Outline 
-
-1. Introduction (Joselyn)
-2. Background (Joselyn)
-3. Experiment (Joselyn & Kyle)
-4. Conclusion (Kyle)
-
----
-
 # Introduction 
 
 - goals
@@ -43,23 +33,23 @@ was just pulled from the text
 
 ## what is a stranded preposition?
 
-- function words are  prosodically weaker and therefore don't usually carry accents
+- function words are prosodically weaker and therefore don't usually carry accents
 
 <!-- but Ladd (1980) notes an interesting case of exceptions -> stranded preps -->
 
 - exceptions? stranded prepositions 
-  - (1) ex: 
-    - A: Why don't you have some French toast?
-    - B: There's nothing to make French toast OUT of
+- (1) ex: 
+  - A: Why don't you have some French toast?
+  - B: There's nothing to make French toast OUT of
 
 - while the default location for the nuclear pitch accent would usually be the noun "French toast" since it's prosodically stronger, the prosodic prominence of the noun is weaker because it was recently mentioned in the discourse. So the nuclear accent appears on the preposition instead
-
 - the current study deals with similar sentences with  more carefully controlled contextual effects as in (2) below
-  - (2) ex: 
-        - A: Are the children _playing_ their game?
-        - B: Paul took down the tent that they _play_ their game IN. 
-        
-   - in these cases, unlike the first example, "play" is given as it was mentioned previously in the discourse (while "make" wasn't)
+
+- (2) ex: 
+  - A: Are the children _playing_ their game?
+  - B: Paul took down the tent that they _play_ their game IN. 
+    
+- in these cases, unlike the first example, "play" is given as it was mentioned previously in the discourse (while "make" wasn't)
    
 ---
 
@@ -69,20 +59,25 @@ was just pulled from the text
 
 - previous accounts all used AM theory to handle placemnetnts of accents in the default case where the sentence is entirely new.
    - they also provide accent shifting to other locations depending on the structure of the prosodic tree
--**Selkirk** on the other hand, deceloped an explicit account of how focus structure propogates through syntactic trees
+  
+- **Selkirk** on the other hand, developed an explicit account of how focus structure propogates through syntactic trees
    - she preicts that the only play for a pitch accent in examples like 2b is the preposition
 
--**Scharzchild** offers a signficant contribution in the form of technical formulation of "GIVENNESS"
-  - according to schwarzchild, if ou know the set of entailments of the discourse context, then accent placement is predictable 
+- **Scharzchild** offers a significant contribution in the form of technical formulation of "GIVENNESS"
+  - according to Schwarzchild, if ou know the set of entailments of the discourse context, then accent placement is predictable 
   - using OT, for any distribution of gien and nongiven constituents in a syntactic tree, a set of hierarchically ranked, violable constraints determines how many accents are necessary and where they should occur 
   
+---
+
+## Reference points for current analysis 
+
 - neither Selkirk nor Schwarzchild discuss phonological constraints on prosodic structure as a possible contributor to nuclear-accent placement though
   - the results of the current study show that prosodic factors compete with discourse-level factors in determining accent placement
   
 - spoiler: this study shows that in contexts similar to 2B above, speakers prefer to accent the direct object and tent to avoid placing accents on preps even when they are the only knew information in their clause 
   - this supports Ladd (1980) in saying that we have to take into consideration the inherent prosodic prominence of particular word classes (and preps are relatively weak)
   
-  - conclusion: accent placement is best accounted for by a stochastic constraint-based grammar built on Schwarzchild's OT treatment of accent placement 
+- conclusion: accent placement is best accounted for by a stochastic constraint-based grammar built on Schwarzchild's OT treatment of accent placement 
   
 ---
 
@@ -96,14 +91,143 @@ Since this study relies heavily on previous accounts by Selkirk and Schwarzchild
 
 - Syntactic features (following Jackendoff, 1972) called F-markers are assigned to nodes that are NEW while GIVEN nodes remain **unmarked** _unless they signal contrastive meaning_ 
 
-  - the number of locations of accents are determined by a set of rules that constrani the way the F-markers are allowed to project from accented words to other nodes
+- the number of locations of accents are determined by a set of rules that constrani the way the F-markers are allowed to project from accented words to other nodes
+  
+---
 
-## Schwarzchild (1999) 
+## Selkirk (1984, 1995)
+  - the rules? 
+    - (3) BASIC FOCUS RULE: An accented word is F-marked
+    - (4) FOCUS PROJECTION: 
+        - a. F-marking of the head of a phrase licenses F-marking of the phrase
+        - b. F-marking of the internal argument of a head licenses the F-marking of the head
+        - c. F-marking of the antecedent of a trace left by NP or WH-movemet licenses the F-marking of the trace
+            
+- to see an example of these rules: 
+    - (5) [[Judy]<sub>F</sub>] [adopted<sub>F</sub> a parrot<sub>F</sub>]<sub>F</sub>]<sub>Foc</sub> 
+    
+  - the rules in (4) license F-marking to project from the direct object to the verb and from the verb to the VP node.
+  - there's nothing that licenses F-marking to project to the direct object from any other node though so the only way F-marking can occur on the direct object is if it's accented.
 
 ---
 
-# Experiment 
+## Selkirk (1984, 1995)
 
+- Selkirk also predicts accent placement in specialized discourse contexts 
+- (6) 
+  - A: Parrots are amazing animals.
+  - B: Judy adopted a parrot. (since parrot is already mentioned in discourse, it's given) 
+
+- [[Judy]<sub>F</sub>[adopted<sub>F</sub> a parrot]<sub>F</sub>]<sub>Foc</sub>
+    
+- which would thus yield: JUdy adOPted a parrot.
+    
+- This theory, however, is not able to predict accent placement directly from facts about the discourse context though because the relationship of the context to the discourse status of words and phrases isn't formalized.
+
+- so we turn to Schwarzchild.
+
+---
+
+## Schwarzchild (1999)
+
+- Schwarzchild also mediates the relationship between accent placement and discourse status of syntactic nodes through the assignment of F-markers. 
+- but Schwarzchild's account is different than Selkirk's in two ways
+
++ 1. Schwarzchild formalizes the notion of discourse status so that it can be determined directly from the entailments of the context. 
+
+  - (9) GIVEN: An utterance U counts as given iff it has a salient antecedent A and 
+          - a. if U is type e, then A and U co-refer;
+          - b. otherwise: modulo $\exists$-type-shifting
+
+  - utterance (U) here is assumed to be any syntactic constitutent 
+  - however,  most syntactic constituents correspond to propositional fragments which cannot be entailed by anything -> $\exists$-type shifting can solve this by transforming syntactic constituents into full propositions which you can check for entailment in the context
+  
+    - (10) 
+      - a. [hums a happy tune]<sub>VP</sub>
+      - b. $\exists$x[x hums a happy tune]
+---
+
+## Schwarzchild (1999) 
+
+- existential F-closure refers to an operation that applies to constituents (that have already been type-shifted): for any phrase U, it looks for the highest F-marked node contained in U and replaces it with an existentially closed variable
+
+(11)
+  - a. $\exists$x[x hums [ a happy<sub>F</sub> tune<sub>F</sub>]<sub>F</sub>]
+  - b. $\exists$Y $\exists$x[x hums Y]
+      
+- given these definitions, it's possible to determine the discourse status of any node knowing only the entailments of the discourse context. 
+
+
+---
+
+## Schwarzchild (1999) 
+
++ 2. Schwarzchild's proposal also differs as it assumes an optimality-theoretic grammar which is governed by ranked constraints.
+
+(14) 
+  - a. GIVENness: a constituent that is not F-marked is given
+  - b. FOC: a FOC-marked phrase contains an accent
+  - c. AVOIDF: Do not F-mark
+  - d. HEADARG: A head is less prominent than its internal argument
+
+- and these constraints are organized into hierarchy 
+
+(15) GIVENness, FOC >> AVOIDF >> HEADARG
+
+---
+
+## Schwarzchild (1999) 
+
+- GIVENness: given 14a, a lack of F-marking on a particular constituent indicates that there is an antecedent in the discourse that (i) is sufficiently salient and (ii) entails the $\exists$-type shifted, existential F-closure of that constituent 
+
+- FOC: relates F-marking to accent placement and specifies a domain in which accents must occur as it requires that FOF-marked phrases contain an accent. (a FOC-marked node is just a node that isn't immediately dominated by another F-marked node)
+
+- AVOIDF: candidates with less F-marking are preferably to those with more F-marking. This has the effect of limiting the number of accents 
+
+- HEADARG: encodes the head-argument asymmetry into the grammar directly
+
+---
+
+# 3. Experiment 
+
+The goal of this experiment was to test specific predictions of the above theories 
+
+## 3.1 Materials
+
+- dialogues like the following:
+
+(18) 
+  - A: Why are the children upset?
+  - B: Paul took down the tent that they *play their game in*
+  
+- by manipulating the discourse context (A), the pattern of new and given elements can be altered
+
+- compare (18 above and 19 below)
+
+(19) 
+  - A: Are the children playing their game?
+  - B: Paul took down the tent that they play their game **in**
+  
+---
+
+## 3.1 Materials
+
+- materials consisted of 30 scenarios
+  - three conditions: broad focus condition (18), narrow focus condition (19), "pronoun instead of full NP" condition, baseline items, filler items
+  
+- (20) 
+  - A: Are the children playing their game?
+  - B: Paul took down the tent that they play **it** in. 
+  
+- each subject saw items from all conditions 
+
+ - also saw baseline items that involved straightforward predictions that didn't include sentence-final preps.
+    - they were used to gauge the tendency of individual subjects to attend to the context when giving their responses
+      - the frequency with which a subject doesn't shift the accent provides an estimate of the likelihood that they will fail to attend to the context -- basically, error
+
+(21) 
+  - A: The casino was designed to look like an Egyptian pyramid. 
+  - B: It looks a lot like an Aztec pyramid from <this> angle. 
 
 ---
 
