@@ -44,7 +44,6 @@ was just pulled from the text
 - (1) ex: 
   - A: Why don't you have some French toast?
   - B: There's nothing to make French toast OUT of
-
 - while the default location for the nuclear pitch accent would usually be the noun "French toast" since it's prosodically stronger, the prosodic prominence of the noun is weaker because it was recently mentioned in the discourse. So the nuclear accent appears on the preposition instead
 - the current study deals with similar sentences with  more carefully controlled contextual effects as in (2) below
 
@@ -66,10 +65,10 @@ was just pulled from the text
    - they also provide accent shifting to other locations depending on the structure of the prosodic tree
   
 - **Selkirk** on the other hand, developed an explicit account of how focus structure propagates through syntactic trees
-   - she predicts that the only play for a pitch accent in examples like 2b is the preposition
+   - she predicts that the only place for a pitch accent in examples like 2b is the preposition
 
 - **Scharzchild** offers a significant contribution in the form of technical formulation of "GIVENNESS"
-  - according to Schwarzchild, if ou know the set of entailments of the discourse context, then accent placement is predictable 
+  - according to Schwarzchild, if you know the set of entailments of the discourse context, then accent placement is predictable 
   - using OT, for any distribution of given and nongiven constituents in a syntactic tree, a set of hierarchically ranked, violable constraints determines how many accents are necessary and where they should occur 
   
 ---
@@ -80,8 +79,7 @@ was just pulled from the text
 
 - neither Selkirk nor Schwarzchild discuss phonological constraints on prosodic structure as a possible contributor to nuclear-accent placement though
   - the results of the current study show that prosodic factors compete with discourse-level factors in determining accent placement
-  
-- spoiler: this study shows that in contexts similar to 2B above, speakers prefer to accent the direct object and tent to avoid placing accents on preps even when they are the only knew information in their clause 
+- spoiler: this study shows that in contexts similar to 2B above, speakers prefer to accent the direct object and tent to avoid placing accents on preps even when they are the only new information in their clause 
   - this supports Ladd (1980) in saying that we have to take into consideration the inherent prosodic prominence of particular word classes (and preps are relatively weak)
   
 - conclusion: accent placement is best accounted for by a stochastic constraint-based grammar built on Schwarzchild's OT treatment of accent placement 
@@ -94,11 +92,11 @@ Since this study relies heavily on previous accounts by Selkirk and Schwarzchild
 
 ## Selkirk (1984, 1995)
 
-- Selkird relates the locations of accents to the discourse status of individual syntactic nodes
+- Selkirk relates the locations of accents to the discourse status of individual syntactic nodes
 
 - Syntactic features (following Jackendoff, 1972) called F-markers are assigned to nodes that are NEW while GIVEN nodes remain **unmarked** _unless they signal contrastive meaning_ 
 
-- the number of locations of accents are determined by a set of rules that constrani the way the F-markers are allowed to project from accented words to other nodes
+- the number of locations of accents are determined by a set of rules that constrain the way the F-markers are allowed to project from accented words to other nodes
   
 ---
 
@@ -145,19 +143,16 @@ Since this study relies heavily on previous accounts by Selkirk and Schwarzchild
 
 - Schwarzchild also mediates the relationship between accent placement and discourse status of syntactic nodes through the assignment of F-markers. 
 - but Schwarzchild's account is different than Selkirk's in two ways
-
-+ 1. Schwarzchild formalizes the notion of discourse status so that it can be determined directly from the entailments of the context. 
-
+1. Schwarzchild formalizes the notion of discourse status so that it can be determined directly from the entailments of the context. 
   - (9) GIVEN: An utterance U counts as given iff it has a salient antecedent A and 
           - a. if U is type e, then A and U co-refer;
-          - b. otherwise: modulo $\exists$-type-shifting
+          - b. otherwise: modulo $\exists$-type-shifting, A entails the existential F-closure of U
+- utterance (U) here is assumed to be any syntactic constitutent 
+- however,  most syntactic constituents correspond to propositional fragments which cannot be entailed by anything -> $\exists$-type shifting can solve this by transforming syntactic constituents into full propositions which you can check for entailment in the context
 
-  - utterance (U) here is assumed to be any syntactic constitutent 
-  - however,  most syntactic constituents correspond to propositional fragments which cannot be entailed by anything -> $\exists$-type shifting can solve this by transforming syntactic constituents into full propositions which you can check for entailment in the context
-  
-    - (10) 
-      - a. [hums a happy tune]<sub>VP</sub>
-      - b. $\exists$x[x hums a happy tune]
+(10) 
+  - a. [hums a happy tune]<sub>VP</sub>
+  - b. $\exists$x[x hums a happy tune]
 ---
 
 # Theoretical Background 
@@ -179,7 +174,7 @@ Since this study relies heavily on previous accounts by Selkirk and Schwarzchild
 
 **Schwarzchild (1999)**
 
-+ 2. Schwarzchild's proposal also differs as it assumes an optimality-theoretic grammar which is governed by ranked constraints.
+2. Schwarzchild's proposal also differs as it assumes an optimality-theoretic grammar which is governed by ranked constraints.
 
 (14) 
   - a. GIVENness: a constituent that is not F-marked is given
