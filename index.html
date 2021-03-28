@@ -13,7 +13,7 @@ class: center, middle, inverse, title-slide
 # Evidence for Phonological Constraints on Nuclear Accent Placement
 ## German et al. (2006)
 ### Kyle Parrish &amp; Joselyn Rodriguez
-### Rutgers University</br>Spring 2021</br>Last update: 2021-03-25
+### Rutgers University</br>Spring 2021</br>Last update: 2021-03-28
 
 ---
 
@@ -22,18 +22,472 @@ class: center, middle, inverse, title-slide
 
 # Introduction 
 
+&lt;!-- NOTES
+- need to figure out how to include latex-like markup on the text lol
+- also need to go through and re-write things to make it less dense as a lot of this
+was just pulled from the text
+--&gt; 
+
+- goals
+    - to better formalize accent placement using experimental data on accent patterns on constructions with stranded prepositions
+    - discuss background and extend Schwarzchild (1999)
+
+---
+
+# Introduction 
+**what is a stranded preposition?**
+
+- function words are prosodically weaker and therefore don't usually carry accents
+
+&lt;!-- but Ladd (1980) notes an interesting case of exceptions -&gt; stranded preps --&gt;
+
+- exceptions? stranded prepositions 
+- (1) ex: 
+  - A: Why don't you have some French toast?
+  - B: There's nothing to make French toast OUT of
+
+- while the default location for the nuclear pitch accent would usually be the noun "French toast" since it's prosodically stronger, the prosodic prominence of the noun is weaker because it was recently mentioned in the discourse. So the nuclear accent appears on the preposition instead
+- the current study deals with similar sentences with  more carefully controlled contextual effects as in (2) below
+
+- (2) ex: 
+  - A: Are the children _playing_ their game?
+  - B: Paul took down the tent that they _play_ their game IN. 
+    
+- in these cases, unlike the first example, "play" is given as it was mentioned previously in the discourse (while "make" wasn't)
+   
+---
+
+# Introduction
+
+**Reference points for current analysis** 
+
+**Selkirk 1984,1995 and Schwarzchild 1999**
+
+- previous accounts all used AM theory to handle placements of accents in the default case where the sentence is entirely new.
+   - they also provide accent shifting to other locations depending on the structure of the prosodic tree
+  
+- **Selkirk** on the other hand, developed an explicit account of how focus structure propagates through syntactic trees
+   - she predicts that the only play for a pitch accent in examples like 2b is the preposition
+
+- **Scharzchild** offers a significant contribution in the form of technical formulation of "GIVENNESS"
+  - according to Schwarzchild, if ou know the set of entailments of the discourse context, then accent placement is predictable 
+  - using OT, for any distribution of given and nongiven constituents in a syntactic tree, a set of hierarchically ranked, violable constraints determines how many accents are necessary and where they should occur 
+  
+---
+
+# Introduction
+
+**Reference points for current analysis** 
+
+- neither Selkirk nor Schwarzchild discuss phonological constraints on prosodic structure as a possible contributor to nuclear-accent placement though
+  - the results of the current study show that prosodic factors compete with discourse-level factors in determining accent placement
+  
+- spoiler: this study shows that in contexts similar to 2B above, speakers prefer to accent the direct object and tent to avoid placing accents on preps even when they are the only knew information in their clause 
+  - this supports Ladd (1980) in saying that we have to take into consideration the inherent prosodic prominence of particular word classes (and preps are relatively weak)
+  
+- conclusion: accent placement is best accounted for by a stochastic constraint-based grammar built on Schwarzchild's OT treatment of accent placement 
+  
+---
+
+# Theoretical Background 
+
+Since this study relies heavily on previous accounts by Selkirk and Schwarzchild, the following will be an overview of each of these accounts. 
+
+## Selkirk (1984, 1995)
+
+- Selkird relates the locations of accents to the discourse status of individual syntactic nodes
+
+- Syntactic features (following Jackendoff, 1972) called F-markers are assigned to nodes that are NEW while GIVEN nodes remain **unmarked** _unless they signal contrastive meaning_ 
+
+- the number of locations of accents are determined by a set of rules that constrani the way the F-markers are allowed to project from accented words to other nodes
+  
+---
+
+# Theoretical Background 
+
+**Selkirk (1984, 1995)**
+  - the rules? 
+    - (3) BASIC FOCUS RULE: An accented word is F-marked
+    - (4) FOCUS PROJECTION: 
+        - a. F-marking of the head of a phrase licenses F-marking of the phrase
+        - b. F-marking of the internal argument of a head licenses the F-marking of the head
+        - c. F-marking of the antecedent of a trace left by NP or WH-movemet licenses the F-marking of the trace
+            
+- to see an example of these rules: 
+    - (5) [[Judy]&lt;sub&gt;F&lt;/sub&gt;] [adopted&lt;sub&gt;F&lt;/sub&gt; a parrot&lt;sub&gt;F&lt;/sub&gt;]&lt;sub&gt;F&lt;/sub&gt;]&lt;sub&gt;Foc&lt;/sub&gt; 
+    
+  - the rules in (4) license F-marking to project from the direct object to the verb and from the verb to the VP node.
+  - there's nothing that licenses F-marking to project to the direct object from any other node though so the only way F-marking can occur on the direct object is if it's accented.
+
+---
+
+# Theoretical Background 
+
+**Selkirk (1984, 1995)**
+
+- Selkirk also predicts accent placement in specialized discourse contexts 
+- (6) 
+  - A: Parrots are amazing animals.
+  - B: Judy adopted a parrot. (since parrot is already mentioned in discourse, it's given) 
+
+- [[Judy]&lt;sub&gt;F&lt;/sub&gt;[adopted&lt;sub&gt;F&lt;/sub&gt; a parrot]&lt;sub&gt;F&lt;/sub&gt;]&lt;sub&gt;Foc&lt;/sub&gt;
+    
+- which would thus yield: JUdy adOPted a parrot.
+    
+- This theory, however, is not able to predict accent placement directly from facts about the discourse context though because the relationship of the context to the discourse status of words and phrases isn't formalized.
+
+- so we turn to Schwarzchild.
+
+---
+
+# Theoretical Background 
+
+**Schwarzchild (1999)**
+
+- Schwarzchild also mediates the relationship between accent placement and discourse status of syntactic nodes through the assignment of F-markers. 
+- but Schwarzchild's account is different than Selkirk's in two ways
+
++ 1. Schwarzchild formalizes the notion of discourse status so that it can be determined directly from the entailments of the context. 
+
+  - (9) GIVEN: An utterance U counts as given iff it has a salient antecedent A and 
+          - a. if U is type e, then A and U co-refer;
+          - b. otherwise: modulo `\(\exists\)`-type-shifting
+
+  - utterance (U) here is assumed to be any syntactic constitutent 
+  - however,  most syntactic constituents correspond to propositional fragments which cannot be entailed by anything -&gt; `\(\exists\)`-type shifting can solve this by transforming syntactic constituents into full propositions which you can check for entailment in the context
+  
+    - (10) 
+      - a. [hums a happy tune]&lt;sub&gt;VP&lt;/sub&gt;
+      - b. `\(\exists\)`x[x hums a happy tune]
+---
+
+# Theoretical Background 
+
+**Schwarzchild (1999)**
+
+- existential F-closure refers to an operation that applies to constituents (that have already been type-shifted): for any phrase U, it looks for the highest F-marked node contained in U and replaces it with an existentially closed variable
+
+(11)
+  - a. `\(\exists\)`x[x hums [ a happy&lt;sub&gt;F&lt;/sub&gt; tune&lt;sub&gt;F&lt;/sub&gt;]&lt;sub&gt;F&lt;/sub&gt;]
+  - b. `\(\exists\)`Y `\(\exists\)`x[x hums Y]
+      
+- given these definitions, it's possible to determine the discourse status of any node knowing only the entailments of the discourse context. 
 
 
 ---
 
-# Background 
+# Theoretical Background 
 
+**Schwarzchild (1999)**
 
++ 2. Schwarzchild's proposal also differs as it assumes an optimality-theoretic grammar which is governed by ranked constraints.
+
+(14) 
+  - a. GIVENness: a constituent that is not F-marked is given
+  - b. FOC: a FOC-marked phrase contains an accent
+  - c. AVOIDF: Do not F-mark
+  - d. HEADARG: A head is less prominent than its internal argument
+
+- and these constraints are organized into hierarchy 
+
+(15) GIVENness, FOC &gt;&gt; AVOIDF &gt;&gt; HEADARG
+
+---
+
+# Theoretical Background 
+
+**Schwarzchild (1999)** 
+
+- GIVENness: given 14a, a lack of F-marking on a particular constituent indicates that there is an antecedent in the discourse that (i) is sufficiently salient and (ii) entails the `\(\exists\)`-type shifted, existential F-closure of that constituent 
+
+- FOC: relates F-marking to accent placement and specifies a domain in which accents must occur as it requires that FOF-marked phrases contain an accent. (a FOC-marked node is just a node that isn't immediately dominated by another F-marked node)
+
+- AVOIDF: candidates with less F-marking are preferably to those with more F-marking. This has the effect of limiting the number of accents 
+
+- HEADARG: encodes the head-argument asymmetry into the grammar directly
+
+---
+
+# Experiment 
+
+**3.1 Materials**
+
+- dialogues like the following:
+
+(18) 
+  - A: Why are the children upset?
+  - B: Paul took down the tent that they *play their game in*
+  
+- by manipulating the discourse context (A), the pattern of new and given elements can be altered
+
+- compare (18 above and 19 below)
+
+(19) 
+  - A: Are the children playing their game?
+  - B: Paul took down the tent that they play their game **in**
+  
+---
+
+# Experiment 
+
+**3.1 Materials**
+
+- materials consisted of 30 scenarios
+  - three conditions: broad focus condition (18), narrow focus condition (19), "pronoun instead of full NP" condition, baseline items, filler items
+  
+- (20) 
+  - A: Are the children playing their game?
+  - B: Paul took down the tent that they play **it** in. 
+  
+- each subject saw items from all conditions 
+
+ - also saw baseline items that involved straightforward predictions that didn't include sentence-final preps.
+    - they were used to gauge the tendency of individual subjects to attend to the context when giving their responses
+      - the frequency with which a subject doesn't shift the accent provides an estimate of the likelihood that they will fail to attend to the context -- basically, error
+
+(21) 
+  - A: The casino was designed to look like an Egyptian pyramid. 
+  - B: It looks a lot like an Aztec pyramid from &lt;this&gt; angle. 
 
 
 ---
 
 # Experiment 
+
+**3.2 Predictions**
+
+--
+
+Overview:
+
+--
+
+Predictions of **Selkirk** and **Schwarzschild** are covered in detail in this section of the paper. I will present an abridged version of these predictions. 
+
+--
+
+Both predict that accents will not occur on given items outside the PP.
+
+
+---
+
+# Experiment 
+
+**3.2 Predictions**
+
+--
+
+Selkirk (1984, 1995) predicts that an accent will occur on the preposition if one occurs at all in the VP
+
+--
+
+Does not allow **non-contrastive given** items to be accented or F-marked, so the lower VP cannot acquire F-marking from the direct object or the verb. 
+
+
+---
+
+# Experiment 
+
+**3.2 Predictions**
+
+F-projection rules drive Selkirk's predictions. 
+
+--
+
+The rules of **F-projection** state that F-marking must originate from a pitch-accented word and may project from internal arguments to heads and from heads to phrases.
+
+--
+
+Either (i) a pitch accent generates F-marking directly on the preposition, which then projects onto the phrasal node as shown in Figure 1 
+
+--
+
+&lt;img src="assets/img/figure1.png" width="65%" /&gt;
+
+---
+
+# Experiment 
+
+**3.2 Predictions**
+
+--
+
+or (ii) the trace inherits F-marking from its antecedent (the nominal head of the relative clause), which then projects onto the preposition and from there to the phrasal node as shown in Figure 2.
+
+--
+
+In both cases a pitch accent is not predicted to occur outside of the PP
+
+--
+
+&lt;img src="assets/img/figure2.png" width="45%" /&gt;
+
+---
+
+
+# Experiment 
+
+**3.2 Predictions**
+
+--
+
+Schwarzschild (1999) similarly predicts that **the preposition** is the only appropriate accent locus in the narrow-focus context and that having one there is obligatory.
+
+--
+
+Definition of **GIVEN**: An utterance U counts as given if it has a salient antecedent, or if it has a type-shifted antecedent. 
+
+---
+
+# Experiment 
+
+**3.2 Predictions**
+
+--
+
+The context we are interested in is repeated in 25.
+
+--
+
+(25) A: Are the children playing **their game**?
+
+B: Paul took down the tent that they play **their game** in.
+
+--
+
+(26) a. [play]
+
+b. `\(\exists\)` x `\(\exists\)` y[x play y]
+
+25A entails 26b, so the verb counts as **given**
+
+--
+
+Givenness is the most dominant constraint on F-marking and can be derived from context via a process referred to as  `\(\exists\)` -type-shifting
+
+This method is a way of formalizing givenness in a given discourse. 
+
+---
+
+# Experiment 
+
+**3.2 Predictions**
+
+**FOC** states that a FOC-phrase (in this case is the higher VP node) must contain a pitch accent. 
+
+Since **FOC** is inviolable in the context of this hierarchy, **AVOIDF** and **HEADARG** are left to select the location of the accent within the higher VP. 
+
+--
+
+The tableau in 33 shows a comparison of some of the candidates.
+
+(33) Narrow focus: VP is a FOC-phrase.
+
+&lt;img src="assets/img/33.png" width="65%" /&gt;
+
+---
+
+# Experiment 
+
+**3.2 Predictions**
+
+Since **GIVENness** requires that the preposition be F-marked in any candidate structure, placing an accent there incurs no further violations of **AVOIDF**. 
+
+Placing an accent on a given item such as the NP or the verb, however, does incur additional violations. 
+
+--
+
+Since **AVOIDF** is the most highly ranked constraint after **GIVENness** and **FOC**, the candidate that incurs the fewest violations of **AVOIDF** is the optimal output. 
+
+The theory predicts that a pitch accent will occur on the preposition and nowhere else within the VP.
+
+---
+
+# Experiment 
+
+**3.2 Predictions**
+
+For the broad-focus context in which the VP is entirely new, both Selkirk (1984, 1995) and Schwarzschild predict that an accent on the **direct object** is obligatory.
+
+--
+
+For Selkirk, there are two reasons why this is so: (i) only the direct object can project its F-marking to all other nodes within the VP (verb, lower VP, higher VP), and (ii) the direct object cannot be interpreted as F-marked unless it is accented.
+
+--
+
+As in the narrow-focus context, F-marking on the preposition and the PP must be licensed either by the presence of an accent on the preposition or by the presence of F-marking on the trace. 
+
+An accent on the preposition is either obligatory or optional depending on the status of the trace, but it is not prohibited. 
+
+An accent on the verb is also not prohibited, since nothing prevents accents on items that are already F-marked.
+
+---
+
+# Experiment 
+
+**3.2 Predictions**
+
+For Schwarzschild (1999), the direct object must receive an accent because **FOC** requires one within the higher VP, and **HEADARG** favors arguments over heads. 
+
+Nothing in the VP has a salient antecedent, so **GIVENness** requires every node to be F-marked.
+
+Since the IP is given(i.e. ‘the children are upset’ entails `\(\exists\)` P′[they P′]), the higher VP is a FOC-phrase, and **FOC** therefore requires it to contain an accent. 
+
+--
+
+**AVOIDF** does not distinguish between locations in this case since all the relevant nodes are F-marked for independent reasons.
+
+An accent on either the preposition or the verb violates **HEADARG**, so the direct object is singled out as the obligatory accent locus. 
+
+&lt;img src="assets/img/35.png" width="65%" /&gt;
+
+
+---
+
+# Experiment
+
+**3.2 Predictions**
+
+Summary of predictions: 
+
+--
+
+(36) BROAD FOCUS: The direct object always receives a nuclear accent.
+
+(37) NARROW FOCUS: Given items (verb, direct object) do not receive a nuclear
+accent at a rate higher than baseline error.
+
+--
+
+&lt;img src="assets/img/tables.png" width="65%" /&gt;
+
+---
+
+# Experiment 
+
+**3.3 Subjects**
+
+24 Northwestern undergraduate students participated in the experiment.
+
+All were Native English speakers 
+
+
+---
+
+# Experiment 
+
+**3.4 Procedure**
+
+Participants were each presented with a total of 60 dialogues (30 test items, 20 baseline items, 10 filler)
+items). 
+
+--
+
+The subjects were provided with a script of each dialogue and presented with a prerecorded audio stimulus corresponding to Speaker A’s contribution to each dialogue. 
+
+--
+
+The subjects then responded out loud, thereby providing their own assessment of the most natural reading for Speaker B’s contribution.
 
 
 ---
@@ -46,23 +500,23 @@ class: center, middle, inverse, title-slide
 
 --
 
-- Nuclear accents are more likely to occur on either **the NP** or **the verb** than on the preposition
+Nuclear accents are more likely to occur on either **the NP** or **the verb** than on the preposition
 
 --
 
-- This holds even when the preposition is the only new element. 
+This holds even when the preposition is the only new element. 
 
 --
 
-- **broad-focus** context the accent fell almost exclusively on the NP.
+**Broad-focus** context the accent fell almost exclusively on the NP.
 
 --
 
-- **narrow-focus** accent placement: preposition (32%), NP (64%). 
+**Narrow-focus** accent placement: preposition (32%), NP (64%). 
 
 --
 
--  **narrow-focus with pronoun substitution**, verb (77%), preposition (15%) of the time. 
+**Narrow-focus with pronoun substitution**, verb (77%), preposition (15%) of the time. 
 
 ---
 
@@ -72,7 +526,7 @@ class: center, middle, inverse, title-slide
 
 --
 
-- Figure 3 is the graphical representation of the conclusions from the previous slide. 
+Figure 3 is the graphical representation of the conclusions from the previous slide. 
 
 --
 
@@ -86,13 +540,13 @@ class: center, middle, inverse, title-slide
 
 --
 
-- **Figure 4** shows the distribution of subject performance on baseline items
+**Figure 4** shows the distribution of subject performance on baseline items
 
-- A **by-subjects ANOVA** showed that the baseline error and the placement of a given nuclear accent in a narrow focus condition was significantly different. (p &lt; 0.0001), .i.e., there was a statistically supported difference between the baseline and experimental conditions not explained by variance)
+A **by-subjects ANOVA** showed that the baseline error and the placement of a given nuclear accent in a narrow focus condition was significantly different. (p &lt; 0.0001), .i.e., there was a statistically supported difference between the baseline and experimental conditions not explained by variance)
 
 --
 
-&lt;img src="assets/img/figure4.png" width="65%" height="65%" /&gt;
+&lt;img src="assets/img/figure4.png" width="40%" height="65%" /&gt;
 
 
 ---
@@ -103,24 +557,24 @@ class: center, middle, inverse, title-slide
 
 --
 
-- **Paired t-tests** revealed a significant main effect ofbroad versus narrow focus on the proportion of NPs receiving nuclear accents (t = 6.510, p &lt; 0.001) and the proportion of prepositions receiving nuclear accents (t = 4.733, p &lt; 0.001).
+**Paired t-tests** revealed a significant main effect ofbroad versus narrow focus on the proportion of NPs receiving nuclear accents (t = 6.510, p &lt; 0.001) and the proportion of prepositions receiving nuclear accents (t = 4.733, p &lt; 0.001).
 
 --
 
-- **By-items analysis** broad versus narrow focus was found to be a significant main effect for the *proportion of
+**By-items analysis** broad versus narrow focus was found to be a significant main effect for the *proportion of
 NPs* receiving nuclear accents (t = 6.161, p &lt; 0.001) as well as for a comparison of the proportions of prepositions receiving a nuclear accent (t = 6.161, p &lt; 0.001).
 
 --
 
-- There was also a significant main effect of broad focus versus narrow focus with pronoun substitution for a comparison of nuclear accented prepositions (t = 2.390, p &lt; 0.024).
+There was also a significant main effect of broad focus versus narrow focus with pronoun substitution for a comparison of nuclear accented prepositions (t = 2.390, p &lt; 0.024).
 
 --
 
-- Subjects were more likely to place an accent on the preposition if the rest of the VP was given 
+Subjects were more likely to place an accent on the preposition if the rest of the VP was given 
 
 --
 
-- Overall, accenting the NP (in the narrow-focus condition) or the verb (in the narrow-focus condition with pronoun
+Overall, accenting the NP (in the narrow-focus condition) or the verb (in the narrow-focus condition with pronoun
 substitution) was preferred to accenting the preposition.
 
 ---
@@ -133,19 +587,23 @@ substitution) was preferred to accenting the preposition.
 
 --
 
-- The results are contrary to the predictions of Schwarzschild (1999) and Selkirk (1984, 1995)
+The results are contrary to the predictions of Schwarzschild (1999) and Selkirk (1984, 1995)
 
 --
 
-- Selkirk: Accents obligatorily generate F-marking 
+Selkirk: Accents obligatorily generate F-marking 
 
 --
 
-- F-marking is not allowed on nodes that are **given and not contrastive**
+F-marking is not allowed on nodes that are **given and not contrastive**
 
 --
 
-- (The results showed F-marking on given, non contrastive nodes)
+(The results showed F-marking on given, non contrastive nodes)
+
+--
+
+&lt;img src="assets/img/pikachu.jpg" width="25%" /&gt;
 
 ---
 
@@ -155,16 +613,15 @@ substitution) was preferred to accenting the preposition.
 
 --
 
-- Schwarzschild: accenting of non-contrastive items is allowed. 
+Schwarzschild: accenting of non-contrastive items is allowed. 
 
 --
 
-- While the results of this study were not predicted by Schwarzschild's model, they do not reject its major premises.
+While the results of this study were not predicted by Schwarzschild's model, they do not reject its major premises.
 
 --
 
-- The difference between an accent on the preposition and one on the NP in the narrow-focus context amounts to
-a difference of one violation of AVOIDF
+The difference between an accent on the preposition and one on the NP in the narrow-focus context amounts to a difference of one violation of **AVOIDF**
 
 ---
 
@@ -174,20 +631,20 @@ a difference of one violation of AVOIDF
 
 --
 
-- The authors propose the incorporation of insights from Ladd (1980) and Altenberg (1987) into Schwarzschild's model. 
+The authors propose the incorporation of insights from Ladd (1980) and Altenberg (1987) into Schwarzschild's model. 
 
 --
 
-- Ladd: word classes are inherently more or less accentable.
+Ladd: word classes are inherently more or less accentable.
 
 --
 
-- Altenberg: found evidence of differential accentuation rates for words by class (low rate for prepositions - ~ 5%)
+Altenberg: found evidence of differential accentuation rates for words by class (low rate for prepositions - ~ 5%)
 
 --
 
-- Based on this evidence, the authors propose a new contraint:
-- **ACCPREP**: Do not accent a preposition
+Based on this evidence, the authors propose a new contraint:
+**ACCPREP**: Do not accent a preposition
 
 ---
 
@@ -197,9 +654,9 @@ a difference of one violation of AVOIDF
 
 --
 
-- Since the data shows that accent on a preposition is a violation of **AVOIDF**, the authors conclude that **ACCPREP** must dominate **AVOIDF** in the hierarchy. 
+Since the data shows that accent on a preposition is a violation of **AVOIDF**, the authors conclude that **ACCPREP** must dominate **AVOIDF** in the hierarchy. 
 
--  GIVENness, FOC, *ACCPREP &gt;&gt; AVOIDF &gt;&gt; HEADARG
+GIVENness, FOC, *ACCPREP &gt;&gt; AVOIDF &gt;&gt; HEADARG
 
 ---
 
@@ -211,15 +668,15 @@ But...
 
 --
 
-- How can the results of 23% accent placement on prepositions in narrow-focus conditions be explained?
+How can the results of 23% accent placement on prepositions in narrow-focus conditions be explained?
 
 --
 
-- Variable constraint ranking (Anttila, 1997)
+Variable constraint ranking (Anttila, 1997)
 
 --
 
-- GIVENness, FOC &gt;&gt; AVOIDF &gt;&gt; HEADARG, *ACCPREP
+GIVENness, FOC &gt;&gt; AVOIDF &gt;&gt; HEADARG, *ACCPREP
 
 ---
 
@@ -227,9 +684,9 @@ But...
 
 **3.6 Discussion**
 
-- Boersma (1997) and Boersma and Hayes (2001): Constraints exist along a continuum of **strictness**
+Boersma (1997) and Boersma and Hayes (2001): Constraints exist along a continuum of **strictness**
 
-- Constraints are determined stochasitcally: there is non-zero probability that constraint distributions overlap. 
+Constraints are determined stochasitcally: there is non-zero probability that constraint distributions overlap. 
 
 &lt;img src="assets/img/figure5.png" width="65%" /&gt;
 
@@ -239,7 +696,7 @@ But...
 
 **3.6 Discussion**
 
-- On a given evaluation of the candidate set, if the strictness value for *ACCPREP is to the right of that for AVOIDF, then the accent will occur on the NP or the verb
+On a given evaluation of the candidate set, if the strictness value for *ACCPREP is to the right of that for AVOIDF, then the accent will occur on the NP or the verb
 
 &lt;img src="assets/img/figure6.png" width="65%" /&gt;
 
@@ -250,14 +707,26 @@ But...
 
 **3.6 Discussion**
 
-- But if the sampled strictness of AVOIDF happens to be higher than that of *ACCPREP, as shown in Figure 7, then the accent will fall on the preposition.
+But if the sampled strictness of AVOIDF happens to be higher than that of *ACCPREP, as shown in Figure 7, then the accent will fall on the preposition.
 
 &lt;img src="assets/img/figure7.png" width="65%" /&gt;
 
 ---
 # Conclusion 
 
+Selkirk (1984,1995) and Schwarzschild (1999) make incorrect predictions about accent placement in the context we studied.
 
+--
+
+Selkirk 1984, 1995 cannot be easily reconciled with the results. 
+
+--
+
+The authors propose to amend Schwarzschild (1999) with an additonal constraint.
+
+--
+
+Theory can also explain the high degree of intra-speaker variability revealed by this study
 
 
 ---

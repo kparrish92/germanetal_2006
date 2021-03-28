@@ -1,17 +1,17 @@
 {
-    "id": "75FAFC93",
+    "id": "E1BA2973",
     "path": "~/GitHub/germanetal_2006/index.rmd",
     "project_path": "index.rmd",
     "type": "r_markdown",
-    "hash": "0",
+    "hash": "3394629308",
     "contents": "",
     "dirty": false,
-    "created": 1616530175055.0,
+    "created": 1616769801741.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "46,0",
+        "cursorPosition": "46,1",
         "scrollLine": "38"
     },
     "folds": "",
@@ -19,7 +19,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1616710626531,
+    "last_content_update": 1616771176924,
     "read_only": false,
     "read_only_alternatives": []
 }
