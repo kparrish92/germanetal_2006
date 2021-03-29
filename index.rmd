@@ -36,7 +36,7 @@ was just pulled from the text
 # Introduction 
 **what is a stranded preposition?**
 
-- function words are prosodically weaker and therefore don't usually carry accents
+- keep in mind that function words are prosodically weaker and therefore don't usually carry accents
 
 <!-- but Ladd (1980) notes an interesting case of exceptions -> stranded preps -->
 
@@ -62,7 +62,7 @@ was just pulled from the text
 **Selkirk 1984,1995 and Schwarzchild 1999**
 
 - previous accounts all used AM theory to handle placements of accents in the default case where the sentence is entirely new.
-   - they also provide accent shifting to other locations depending on the structure of the prosodic tree
+   - they also provide accent shifting to other locations depending on the structure of the *prosodic tree*
   
 - **Selkirk** on the other hand, developed an explicit account of how focus structure propagates through syntactic trees
    - she predicts that the only place for a pitch accent in examples like 2b is the preposition
@@ -79,16 +79,17 @@ was just pulled from the text
 
 - neither Selkirk nor Schwarzchild discuss phonological constraints on prosodic structure as a possible contributor to nuclear-accent placement though
   - the results of the current study show that prosodic factors compete with discourse-level factors in determining accent placement
-- spoiler: this study shows that in contexts similar to 2B above, speakers prefer to accent the direct object and tent to avoid placing accents on preps even when they are the only new information in their clause 
+- spoiler: this study shows that in contexts similar to 2B above, speakers prefer to accent the direct object and tend to avoid placing accents on prepositions even when they are the only new information in their clause 
   - this supports Ladd (1980) in saying that we have to take into consideration the inherent prosodic prominence of particular word classes (and preps are relatively weak)
-  
 - conclusion: accent placement is best accounted for by a stochastic constraint-based grammar built on Schwarzchild's OT treatment of accent placement 
   
 ---
 
 # Theoretical Background 
 
-Since this study relies heavily on previous accounts by Selkirk and Schwarzchild, the following will be an overview of each of these accounts. 
+Since this study relies heavily on previous accounts by Selkirk and Schwarzchild, we'll begin with an overview of each of them  
+
+--
 
 ## Selkirk (1984, 1995)
 
@@ -143,6 +144,9 @@ Since this study relies heavily on previous accounts by Selkirk and Schwarzchild
 
 - Schwarzchild also mediates the relationship between accent placement and discourse status of syntactic nodes through the assignment of F-markers. 
 - but Schwarzchild's account is different than Selkirk's in two ways
+
+--
+
 1. Schwarzchild formalizes the notion of discourse status so that it can be determined directly from the entailments of the context. 
   - (9) GIVEN: An utterance U counts as given iff it has a salient antecedent A and 
           - a. if U is type e, then A and U co-refer;
@@ -194,9 +198,15 @@ Since this study relies heavily on previous accounts by Selkirk and Schwarzchild
 
 - GIVENness: given 14a, a lack of F-marking on a particular constituent indicates that there is an antecedent in the discourse that (i) is sufficiently salient and (ii) entails the $\exists$-type shifted, existential F-closure of that constituent 
 
+--
+
 - FOC: relates F-marking to accent placement and specifies a domain in which accents must occur as it requires that FOF-marked phrases contain an accent. (a FOC-marked node is just a node that isn't immediately dominated by another F-marked node)
 
+--
+
 - AVOIDF: candidates with less F-marking are preferably to those with more F-marking. This has the effect of limiting the number of accents 
+
+--
 
 - HEADARG: encodes the head-argument asymmetry into the grammar directly
 
@@ -241,7 +251,7 @@ Since this study relies heavily on previous accounts by Selkirk and Schwarzchild
 
 (21) 
   - A: The casino was designed to look like an Egyptian pyramid. 
-  - B: It looks a lot like an Aztec pyramid from <this> angle. 
+  - B: It looks a lot like an **Az**tec pyramid from <this> angle. 
 
 
 ---
